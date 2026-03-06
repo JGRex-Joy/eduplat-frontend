@@ -1,4 +1,9 @@
-const BASE_URL = "http://localhost:8000/api/v1";
+const BASE_URL = "https://eduplat-backend-yxlh.onrender.com/api/v1"; 
+/* вот здесь когда будешь локально эндпоинты связывать прокинь вот этот url: 
+http://localhost:8000/api/v1
+А тот который здесь убери, я его чисто ради деплоя воткнул. 
+А кста я эндпоинты прокинул в login и register, вроде все норм работает
+*/
 
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem("token");
