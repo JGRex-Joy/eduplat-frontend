@@ -1,6 +1,6 @@
 import React from 'react';
 import './WelcomPage.css';
-import imag from './Group 46903.svg'
+import imag from '../../../assets/Group 46903.svg'
 
 function WelcomPage({onNavigate}){
     return(

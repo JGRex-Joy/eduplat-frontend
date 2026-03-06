@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './LogIn.css'
-import back from './back.png'
+import back from '../../../assets/back.png'
 
 function LogIn({ onNavigate }){
     const [showPassword, setShowPassword] = useState(false);

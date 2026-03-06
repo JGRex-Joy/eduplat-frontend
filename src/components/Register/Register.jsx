@@ -1,7 +1,7 @@
 import './Register.css'
 import { useState } from "react";
-import back from './back.png'
-import vector from './Vector.png'
+import back from '../../../assets/back.png'
+import vector from '../../../assets/Vector.png'
 
 function Register({ onNavigate }) {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
